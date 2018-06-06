@@ -21,12 +21,21 @@ $(document).ready(function(){
 	// Clase likeable (corazón) cambia de color con un click y aumenta el contador en 1
 		$(".likeable").on("click", function(event){
 			event.preventDefault();
-			//event.stopPropagation();
+			event.stopPropagation();
 			$(this).toggleClass("likeable--red");
 
+				var i= 0
+				if($(this).hasClass("likeable")){
+					$("#counter").text(i++); 
+				
+				} else {
+
+				}; 
+
+			document.getElementById("counter").innerHTML = i++;
 		});
 
-		$("")
+		
 
 		// Icono basurero borra el post
 
