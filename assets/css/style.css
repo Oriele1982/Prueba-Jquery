@@ -1,0 +1,91 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family: "Helvetica", sans-serif;
+	max-width: 100%;
+}
+
+.col-md-6{
+	width: 48%;
+	height: 400px;
+	padding: 0;
+	margin: 10px 0 0 10px;
+	background-color: gold;
+	box-sizing: border-box;
+
+}
+
+.col-md4{
+	width: 50%;
+	height: 100px;
+	padding: 0;
+	margin: 10px 0 0 50px;
+	box-sizing: border-box;
+}
+
+.twitter__navbar{
+	margin: 0;
+	padding-bottom: 20px;
+}	
+	.twitter_icon{
+		font-size: 45px;
+		margin-left: 640px;
+		color: #23A1F2;
+
+	}
+
+.twitter__section{
+	height: 500px;
+	background-color: #E6ECF0;
+	padding: 15px;
+}
+	.twitter_row{
+		margin: 0;
+		padding: 0;
+	}
+
+	 /*Formulario */
+
+#tweet_textarea{
+	width: 80%;
+	margin: 50px 0 0 30px;
+}
+
+#twitter_btn{
+	width:20%;
+	background-color: #350769;
+	color: #fff;
+	text-align: center;
+	border-radius: 30px;
+	margin: 20px 0 0 400px;
+	
+}	
+
+	#twitter_btn:hover{
+		background-color: #8B008B;
+		color: #fff;
+	}
+
+/* Tweet posteado */
+
+.tweet__container{
+	margin: 30px 0 0 70px;
+
+}
+	.tweet_twitter{
+		background-color: #fff;
+		border: 1px solid #350769;
+		border-radius: 10px;
+		padding: 5px 10px;
+	}
+	
+	.tweet_select{
+		list-style-type: none;
+	}
+
+	.tweet_item{
+		display: inline-block;
+		font-size: 20px;
+		margin: 10px 15px 0 60px;
+		color: #350769;
+	}
