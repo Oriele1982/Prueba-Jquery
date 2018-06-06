@@ -4,22 +4,28 @@ body{
 	font-family: "Helvetica", sans-serif;
 	max-width: 100%;
 }
-
+.col-md-3{
+	width: 30%;
+	height: 200px;
+	padding:0;
+	margin-top: 10px;
+	background-color:  #a569bd;
+}
 .col-md-6{
-	width: 48%;
+	width: 60%;
 	height: 400px;
 	padding: 0;
-	margin: 10px 0 0 10px;
-	background-color: gold;
+	margin: 10px 0 0 50px;
+	background-image: url(../img/twitter-birds.jpg);
 	box-sizing: border-box;
 
 }
 
-.col-md4{
-	width: 50%;
+.col-md-4{
+	width: 40%;
 	height: 100px;
 	padding: 0;
-	margin: 10px 0 0 50px;
+	margin-top: 10px;
 	box-sizing: border-box;
 }
 
@@ -49,15 +55,18 @@ body{
 #tweet_textarea{
 	width: 80%;
 	margin: 50px 0 0 30px;
+	padding: 3px;
+	border-radius: 10px;
+	border: 1px solid #350769;
 }
 
 #twitter_btn{
-	width:20%;
+	width: 30%;
 	background-color: #350769;
 	color: #fff;
 	text-align: center;
 	border-radius: 30px;
-	margin: 20px 0 0 400px;
+	margin: 20px 0 0 200px;
 	
 }	
 
@@ -69,8 +78,17 @@ body{
 /* Tweet posteado */
 
 .tweet__container{
+	width: 100%;
 	margin: 30px 0 0 70px;
 
+}
+
+.tweet__post{
+	width: 200%;
+	background-color: #f4f6f7;
+	padding: 15px 5px;
+	margin-bottom: 10px;
+	border-radius: 10px;
 }
 	.tweet_twitter{
 		background-color: #fff;
@@ -79,13 +97,22 @@ body{
 		padding: 5px 10px;
 	}
 	
-	.tweet_select{
+	.tweet_select ul{
 		list-style-type: none;
+		padding: 0;
+		
 	}
 
 	.tweet_item{
 		display: inline-block;
 		font-size: 20px;
-		margin: 10px 15px 0 60px;
+		margin: 10px 10px 0 90px;
 		color: #350769;
 	}
+.likeable{
+	color: #DDA0DD;
+}
+
+.likeable--red{
+	color:tomato;
+}
