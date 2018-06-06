@@ -29,10 +29,10 @@ $(document).ready(function(){
 					$("#counter").text(i++); 
 				
 				} else {
-
+					$("#counter").text(i--);
 				}; 
 
-			document.getElementById("counter").innerHTML = i++;
+			document.getElementById("counter").innerHTML = i;
 		});
 
 		
