@@ -6,6 +6,7 @@ $(document).ready(function(){
 		var post = $('.tweet_col');
 		post.append(	
 		'<div class="tweet__post">'
+		+ '<img src="assets/img/grumpy.jpg"  class="tweet_image" alt="grumpy">'
 		+ '<div class="tweet_twitter">' 
 		+ tweet 
 		+ '</div>'
@@ -25,14 +26,14 @@ $(document).ready(function(){
 			$(this).toggleClass("likeable--red");
 
 				var i= 0
-				if($(this).hasClass("likeable")){
+				if($(this).hasClass("likeable--red")){
 					$("#counter").text(i++); 
 				
 				} else {
-					$("#counter").text(i--);
+					$("#counter").text(i);
 				}; 
 
-			document.getElementById("counter").innerHTML = i;
+			document.getElementById("counter").innerHTML = i++;
 		});
 
 		
